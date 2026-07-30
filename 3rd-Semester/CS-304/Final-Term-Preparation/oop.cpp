@@ -347,3 +347,89 @@ using namespace std;
 // Lecture No:- 30
 
 // See the Handouts.
+
+// Lectuere No:- 31
+
+// Multiple Inheritance
+
+// class Woman
+// {
+// public:
+//     void eat()
+//     {
+//         cout << "Woman is eating." << endl;
+//     }
+// };
+
+// class Fish
+// {
+// public:
+//     void eat()
+//     {
+//         cout << "Fish is eating." << endl;
+//     }
+// };
+
+// class Mermaid : public Woman, public Fish
+// {
+// };
+
+// int main()
+// {
+//     Mermaid m;
+
+//     // m.eat();   // ERROR: Ambiguous
+
+//     return 0;
+// }
+
+// Solution 1: Use Scope Resolution Operator
+
+// Lecture No:- 32
+
+// Generic Programming
+
+// Lecture No:- 33
+
+// See Handouts.
+
+// Lecture No:- 34
+
+// Class template
+
+// Lecture No:- 35
+
+// Practice class temlate with copy constructor & class template specialization.
+
+// Generic Template
+// template <class T>
+// class Display
+// {
+// public:
+//     void show()
+//     {
+//         cout << "Generic Template" << endl;
+//     }
+// };
+
+// // Complete Specialization for int
+// template <>
+// class Display<int>
+// {
+// public:
+//     void show()
+//     {
+//         cout << "Specialized Template for int" << endl;
+//     }
+// };
+
+// int main()
+// {
+//     Display<float> obj1;
+//     Display<int> obj2;
+
+//     obj1.show();
+//     obj2.show();
+
+//     return 0;
+// }
