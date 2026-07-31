@@ -433,3 +433,92 @@ using namespace std;
 
 //     return 0;
 // }
+
+// Lecture No:- 36 & Lecture No:- 37
+
+// Just study general, complete, and partial specialization and it's resolution order. Also study some rules in the case of inheritance for eneral, partial, complete, and ordinary class specializations.
+
+// Lecture No:- 38
+
+// Just understand some rules mentioned in the handouts and do a coding practice of combination of templates and friends.
+
+// Lecture No:- 39
+
+// friend class with templates
+
+//
+// class F;
+// template <class T>
+// class E
+// {
+// private:
+//     T id;
+//     friend F;
+// };
+
+// class F
+// {
+//     E<int> a1;
+//     E<float> a2;
+
+// public:
+//     void display()
+//     {
+//         a1.id = 10;
+//         a2.id = 11.334;
+
+//         cout << a1.id << endl;
+//         cout << a2.id << endl;
+//         cout << "Hello from F class." << endl;
+//     };
+// };
+
+// int main()
+// {
+
+//     F f1;
+//     f1.display();
+
+//     return 0;
+// }
+
+// Friend function with template
+
+// template <typename U>
+// class G
+// {
+//     U name;
+//     friend void display();
+// };
+
+// void display()
+// {
+//     G<string> g1;
+//     g1.name = "Hamad";
+
+//     cout << g1.name << endl;
+// }
+
+// int main()
+// {
+
+//     display();
+//     return 0;
+// }
+
+// Lecture No:- 39
+
+// Understand the concept of static member, and it's concept in the context of template class.
+// See advantages and disadvantages of templates.
+
+// Lecture No:- 40
+
+// Study Cursors and Itterators.
+
+// https://www.youtube.com/watch?v=SgcHcbQ0RCQ
+
+// Lecture No:- 41 to Lecture No:- 45
+
+// Study STL and remember function names used in the specific containers.
+// Study error handling.
+// Study Resource management.
